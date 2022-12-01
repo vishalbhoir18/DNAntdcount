@@ -11,7 +11,7 @@ from PIL import Image
 # Page Title
 ######################
 
-image = Image.open('dna-logo.jpg')
+image = Image.open('DNA ntd count.jpg')
 
 st.image(image, use_column_width=True)
 
@@ -28,7 +28,7 @@ This app counts the nucleotide composition of query DNA!
 # Input Text Box
 ######################
 
-#st.sidebar.header('Enter DNA sequence')
+#st.sidebar.header('Enter DNA sequence here')
 st.header('Enter DNA sequence here')
 
 sequence_input = ">DNA Query 2\nGAACACGTGGAGGCAAACAGGAAGGTGAAGAAGAACTTATCCTATCAGGACGGAAGGTCCTGTGCTCGGG\nATCTTCCAGACGTCGCGACTCTAAATTGCCCCCTCTGAGGTCAAGGAACACAAGATGGTTTTGGAAATGC\nTGAACCCGATACATTATAACATCACCAGCATCGTGCCTGAAGCCATGCCTGCTGCCACCATGCCAGTCCT"
